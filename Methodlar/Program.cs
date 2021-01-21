@@ -21,7 +21,6 @@ namespace Methodlar
                 urun1,
                 urun2
             };
-
             // type-safe -- tip güvenli
             foreach (Urun urun in urunler)
             {
