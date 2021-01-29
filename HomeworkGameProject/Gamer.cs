@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HomeworkGameProject
+{
+    class Gamer
+    {
+        public int Id { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public long IdentityNumber { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int BirthYear { get; set; }
+        public double ActivityInTheGame { get; set; }
+        public bool CampaignFlag { get; set; }
+        public bool BoughtFlag { get; set; }
+    }
+}
